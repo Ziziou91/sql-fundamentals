@@ -1,7 +1,9 @@
 import { getDb } from '../db/utils';
 import { sql } from '../sql-string';
 
-export const ALL_ORDERS_COLUMNS = ['*'];
+export const ALL_ORDERS_COLUMNS = [
+  'id, customerid, employeeid, shipcity, shipcountry, shippeddate'
+];
 export const ORDER_COLUMNS = ['*'];
 
 /**
